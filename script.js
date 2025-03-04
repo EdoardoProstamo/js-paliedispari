@@ -29,4 +29,8 @@ console.log({userChoice});
 if (userChoice === 'pari' || userChoice === 'dipari') {
     //chiedo un numero all'utente e lo salvo in una variabile
     const userNumber = parseInt(prompt('Inserisci un numero compreso tra 1 e 5'));
+
+    if (userNumber >= 1 && userNumber <= 5) {
+        console.log({userNumber});
+    }
 }
