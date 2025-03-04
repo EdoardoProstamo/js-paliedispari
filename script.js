@@ -52,4 +52,7 @@ if (userChoice === 'pari' || userChoice === 'dipari') {
         console.log('Il numero deve essere compreso tra 1 e 5');
         alert ('Il numero deve essere compreso tra 1 e 5'); //Spunta all'utente nella pagina
     }
+}else {
+    console.log(`Hai scelto ${userChoice}, ma il valore deve essere pari o dispari`);
+    alert (`Hai scelto ${userChoice}, ma il valore deve essere pari o dispari`); //Spunta all'utente nella pagina
 }
