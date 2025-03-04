@@ -48,5 +48,8 @@ if (userChoice === 'pari' || userChoice === 'dipari') {
         }else {
             console.log('Cpu vince');
         }
+    }else {
+        console.log('Il numero deve essere compreso tra 1 e 5');
+        alert ('Il numero deve essere compreso tra 1 e 5'); //Spunta all'utente nella pagina
     }
 }
