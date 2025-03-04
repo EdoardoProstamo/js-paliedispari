@@ -25,3 +25,7 @@ const userWord = parseInt (prompt('Inserisci una parola'));
 //chiedo all'utente di scegliere tra pari e dispari
 const userChoice = prompt('Scegli tra pari e dispari');
 console.log({userChoice});
+
+if (userChoice === 'pari' || userChoice === 'dipari') {
+    
+}
