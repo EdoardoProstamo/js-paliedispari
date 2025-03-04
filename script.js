@@ -56,3 +56,24 @@ if (userChoice === 'pari' || userChoice === 'dipari') {
     console.log(`Hai scelto ${userChoice}, ma il valore deve essere pari o dispari`);
     alert (`Hai scelto ${userChoice}, ma il valore deve essere pari o dispari`); //Spunta all'utente nella pagina
 }
+
+
+/******** 
+FUNCTIONS
+********/
+
+//restituisce true or false
+function isEvenOrOdd(number) {
+    
+    if (number % 2 === 0) {
+        return 'pari'; //Pari !== pari
+    }else {
+        return 'dispari';
+    }
+}
+
+//genera un numero random tra min e max sempre inclusi
+function getRndInteger(min, max) {
+    //interrompe il codice della funzione e restituisce un valore;
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
