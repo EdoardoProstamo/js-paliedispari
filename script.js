@@ -42,5 +42,11 @@ if (userChoice === 'pari' || userChoice === 'dipari') {
         //const isSumEvenOrOdd = sum % 2 === 0 //true/false
         const result = isEvenOrOdd(sum) //'pari' 'dispari'
         console.log({result});
+
+        if (userChoice === result) {
+            console.log('Utente vince');
+        }else {
+            console.log('Cpu vince');
+        }
     }
 }
