@@ -27,5 +27,6 @@ const userChoice = prompt('Scegli tra pari e dispari');
 console.log({userChoice});
 
 if (userChoice === 'pari' || userChoice === 'dipari') {
-    
+    //chiedo un numero all'utente e lo salvo in una variabile
+    const userNumber = parseInt(prompt('Inserisci un numero compreso tra 1 e 5'));
 }
