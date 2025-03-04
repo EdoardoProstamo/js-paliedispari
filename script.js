@@ -38,5 +38,9 @@ if (userChoice === 'pari' || userChoice === 'dipari') {
 
         const sum = userNumber + cpuNumber;
         console.log({sum});
+
+        //const isSumEvenOrOdd = sum % 2 === 0 //true/false
+        const result = isEvenOrOdd(sum) //'pari' 'dispari'
+        console.log({result});
     }
 }
