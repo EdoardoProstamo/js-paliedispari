@@ -32,5 +32,8 @@ if (userChoice === 'pari' || userChoice === 'dipari') {
 
     if (userNumber >= 1 && userNumber <= 5) {
         console.log({userNumber});
+        //genero un numero random tra 1 e 5 (funzione) e lo salvo in una variabile
+        const cpuNumber = getRndInteger(1, 5);
+        console.log({cpuNumber});
     }
 }
