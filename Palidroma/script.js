@@ -5,7 +5,8 @@ const userWord = parseInt (prompt('Inserisci una parola'));
 
 
 const isWordPalindrome = isPalindrome(userWord);
-if(true) {
+
+if(isWordPalindrome) {
     console.log('Sono una parola palindroma');
 }else {
     console.log('Non sono una parola palindroma');
@@ -18,9 +19,14 @@ function isPalindrome(input) {
     const word = input.toLowerCase();
 
     //trasformo la parola in un array(perchè altrimenti non posso usare il reverse) e poi la faccio ritornare una stringa
-    const reverse = word.split('').reverse().join();
+    const reverse = word.split('').reverse().join('');
 
-    return false;
+    //condizione di vero o falso confrontando word con reverse
+    if(word === reverse) {
+        return true;
+    }else {
+        return false;
+    }
 }
 
 
